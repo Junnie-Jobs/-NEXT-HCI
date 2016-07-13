@@ -55,9 +55,7 @@ void ofApp::mousePressed(int x, int y, int button){
 void ofApp::mouseReleased(int x, int y, int button){
     
     if(button == 0){ //mouse left click
-        
-
-        balls.push_back(ofPoint(x,y));
+            balls.push_back(ofPoint(x,y));
         radius.push_back(ofRandom(30,50));
         colors.push_back(ofColor(ofRandom(0,255),ofRandom(0,255),ofRandom(0,255)));
         
